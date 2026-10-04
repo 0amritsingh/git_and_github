@@ -10,3 +10,37 @@ git diff
 ```bash
 git diff --staged
 ```
+3. Undo changes in you file
+```bash
+# this will restore only one file
+git restore filename.extention
+
+# this will restore all files
+git restore .
+```
+4. Unstage files
+```bash
+git restore --staged filename.extention
+```
+5. Amend a commit 
+
+This allow to make changes in file in a previous commit without creating a new commit
+```bash
+# Stage the forgotten file
+git add forgotten.exstention
+ 
+# Amend the previous commit
+git commit --amend -m "New commit message"
+```
+6. Reset to a Previous Commit
+```bash
+# Soft Reset (keeps changes in staging):
+git reset --soft HEAD~1
+
+# Mixed Reset (keeps changes in working directory):
+git reset HEAD~1
+
+# Hard Reset (discards all changes):
+git reset --hard HEAD~1
+```
+Warning: --hard permanently deletes uncommitted work!
