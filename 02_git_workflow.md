@@ -15,3 +15,15 @@ git add filename.extention
 # this will add all files in the repo
 git add .
 ```
+4. commiting changes
+```bash
+git commit -m "commit massege"
+```
+5. To restore the code that we changes up until last commit
+```bash
+git restore filename.extention
+```
+6. To view commiting history
+```bash
+git log
+```
