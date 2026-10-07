@@ -26,4 +26,7 @@ git restore filename.extention
 6. To view commiting history
 ```bash
 git log
+
+# and for a brief view 
+git log --oneline
 ```
