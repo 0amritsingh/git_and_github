@@ -1,4 +1,4 @@
-# Branches, Merge and Merge conflict
+# Branches
 > some info about branches soon
 
 List branches
@@ -25,6 +25,8 @@ Delete a branch
 ```bash
 git branch -d branch-name
 ```
+
+# Merge and Merge conflict
 
 Merging branches
 ```bash
